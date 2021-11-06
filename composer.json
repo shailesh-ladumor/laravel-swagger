@@ -1,0 +1,37 @@
+{
+    "name": "ladumor/laravel-swagger",
+    "description": "this package used for the setup swagger docs for APIs.",
+    "type": "library",
+    "keywords": [
+        "laravel swagger",
+        "swagger laravel",
+        "laravel",
+        "php"
+    ],
+    "require": {
+        "php": ">=5.6",
+        "illuminate/support": ">=5.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shailesh Ladumor",
+            "email": "shaileshmladumor@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ladumor\\LaravelSwagger\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ladumor\\LaravelSwagger\\LaravelSwaggerServiceProvider"
+            ],
+            "aliases": {
+                "LaravelSwagger": "Ladumor\\LaravelSwagger\\LaravelSwagger"
+            }
+        }
+    }
+}
