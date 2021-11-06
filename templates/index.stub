@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title>$TITLE</title>
+    <link href="https://cdn.jsdelivr.net/npm/swagger-ui-dist@4.0.1/swagger-ui.css" rel="stylesheet">
+</head>
+<body>
+<div id="swagger-ui"></div>
+<script src="https://code.jquery.com/jquery-3.6.0.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/swagger-ui-dist@4.0.1/swagger-ui-bundle.js"></script>
+<script type="application/javascript">
+    const ui = SwaggerUIBundle({
+        url: "{{ asset('swagger/swagger.yaml') }}",
+        dom_id: '#swagger-ui',
+    });
+</script>
+</body>
+</html>
