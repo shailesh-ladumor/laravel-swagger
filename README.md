@@ -1,3 +1,10 @@
+[![Latest Stable Version](http://poser.pugx.org/ladumor/laravel-swagger/v)](https://packagist.org/packages/ladumor/laravel-swagger)
+[![Daily Downloads](http://poser.pugx.org/ladumor/laravel-swagger/d/daily)](https://packagist.org/packages/ladumor/laravel-swagger)
+[![Monthly Downloads](http://poser.pugx.org/ladumor/laravel-swagger/d/monthly)](https://packagist.org/packages/ladumor/laravel-swagger)
+[![Total Downloads](http://poser.pugx.org/ladumor/laravel-swagger/downloads)](https://packagist.org/packages/ladumor/laravel-swagger)
+[![License](http://poser.pugx.org/ladumor/laravel-swagger/license)](https://packagist.org/packages/ladumor/laravel-swagger)
+[![PHP Version Require](http://poser.pugx.org/ladumor/laravel-swagger/require/php)](https://packagist.org/packages/ladumor/laravel-swagger)
+
 # Laravel Swagger
 
 ## Installation
